@@ -11,9 +11,8 @@ This project automates job search testing on the LexisNexis Risk website using J
 ## Setup
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/lexisnexis-test.git
+   git clone https://github.com/cmd-github/lexisnexis-test.git
    cd lexisnexis-test
-Replace yourusername with your GitHub username after creating the repository.
 
 2. **Install Dependencies:** Run the following command to download all Maven dependencies:
 
