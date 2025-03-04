@@ -1,6 +1,6 @@
 # LexisNexis Job Search Automation
 
-This project automates job search testing on the LexisNexis Risk website using Java, Selenium, Cucumber, and Serenity BDD, with optional TestNG reporting. It verifies search results for "automation tester" (expecting results) and "notarealcareer" (expecting no results).
+This project automates job search testing on the LexisNexis Risk website using Java, Selenium, Cucumber, and Serenity BDD. It verifies search results for "automation tester" (expecting results) and "notarealcareer" (expecting no results) and a failing example test for the search "exampleoffailure".
 
 ## Prerequisites
 - **Java**: JDK 11 or higher (tested with JDK 21).
