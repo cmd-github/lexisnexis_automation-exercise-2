@@ -37,12 +37,12 @@ Open in a browser to view detailed test results, including steps and screenshots
 **Console Output:** Check the terminal for real-time logs (e.g., "Jobs Found = X").
 
 ## Project Structure
-src/test/resources/features/job_search.feature: Cucumber feature file with test scenarios.
-src/test/java/stepDefinitions/: Step definitions and test runners (JobSearchSteps.java, RunCucumberTest.java, RunCucumberTestNG.java).
-src/main/java/pages/: Page objects (HomePage.java, CareersPage.java).
-src/main/java/utils/: Utility classes (e.g., DriverManager.java).
-pom.xml: Maven configuration file.
-serenity.properties: Serenity configuration (e.g., browser settings).
+- src/test/resources/features/job_search.feature: Cucumber feature file with test scenarios.
+- src/test/java/stepDefinitions/: Step definitions and test runners (JobSearchSteps.java, RunCucumberTest.java, RunCucumberTestNG.java).
+- src/main/java/pages/: Page objects (HomePage.java, CareersPage.java).
+- src/main/java/utils/: Utility classes (e.g., DriverManager.java).
+- pom.xml: Maven configuration file.
+- serenity.properties: Serenity configuration (e.g., browser settings).
 
 ## Test Scenarios
 - Search for "automation tester": Expects at least one job listing (passes if jobs exist, fails if none).
