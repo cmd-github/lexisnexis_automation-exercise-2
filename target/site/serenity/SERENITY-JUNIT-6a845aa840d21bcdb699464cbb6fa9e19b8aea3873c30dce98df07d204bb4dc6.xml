@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Job Search on LexisNexis" skipped="0" tests="3" time="76.65" timestamp="2025-03-04 07:59:40"><testcase name="Search for Automation Tester jobs"><failure message="Expected at least one job listing, but none were found!" type="java.lang.AssertionError">Expected at least one job listing, but none were found!</failure><system-err>Expected at least one job listing, but none were found!&#13;
+stepDefinitions.JobSearchSteps.verifyJobListings(JobSearchSteps.java:36)&#13;
+✽.I should see results matching "yes"(file:///C:/Users/Craig/Projects/lexisnexis-test/src/test/resources/features/job_search.feature:7)&#13;
+</system-err></testcase></testsuite>
