@@ -31,8 +31,8 @@ verify: Runs tests via Serenity (JUnit) and generates the Serenity report.
 After running mvn clean verify, reports are generated in the following locations:
 
 **Serenity Report:**
-Location: target/site/serenity/index.html
-Open in a browser to view detailed test results, including steps and screenshots.
+- Location: target/site/serenity/index.html
+- Open in a browser to view detailed test results, including steps.
 
 **Console Output:** Check the terminal for real-time logs (e.g., "Jobs Found = X").
 
@@ -55,8 +55,8 @@ Open in a browser to view detailed test results, including steps and screenshots
 **Serenity Report Missing:** Use mvn verify (not just mvn test) to trigger the serenity-maven-plugin.
 
 ## Customization
-**Change Browser:** Edit serenity.properties (e.g., webdriver.driver=firefox) and ensure the browser is installed.
-**Modify Search Terms:** Update the Examples table in job_search.feature to test different terms.
+- **Change Browser:** Edit serenity.properties (e.g., webdriver.driver=firefox) and ensure the browser is installed.
+- **Modify Search Terms:** Update the Examples table in job_search.feature to test different terms.
 
 
 ## Running on Any OS
